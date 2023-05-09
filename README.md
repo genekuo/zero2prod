@@ -10,3 +10,7 @@ curl -v http://127.0.0.1:8000/health_check
 curl POST \
     --data 'name=lee%20guin&email=ursula_lee_guin%40gmail.com' \
     127.0.0.1:8000/subscriptions --verbose
+
+curl POST \
+    --data 'name=lee%20guin&email=ursula_lee_guin%40gmail.com' \
+    https://zero2prod-ej3h6.ondigitalocean.app/subscriptions --verbose
